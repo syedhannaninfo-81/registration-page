@@ -20,7 +20,7 @@ export const FormContainer = () => {
             >
               <iframe
                 title="RH Public School Quiz Registration"
-                src="https://docs.google.com/forms/d/e/1FAIpQLScP2bF6nI-BKYygvofJkUNJAUF1vltecXgg0LrG28eknA1Y2Q/viewform?embedded=true"
+                src="https://docs.google.com/forms/d/e/1FAIpQLSdhxeFWWpoUeUPMo_QDzwETHTnkz4UHPeTKDnNJKCIpEPAHQQ/viewform?embedded=true"
                 width="100%"
                 height="1100"
                 frameBorder="0"
