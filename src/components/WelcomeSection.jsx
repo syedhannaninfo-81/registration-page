@@ -24,7 +24,7 @@ export const WelcomeSection = () => {
         </p>
 
         <p className="text-sm sm:text-base text-[hsl(var(--foreground))]/70 leading-relaxed">
-          This competition is open to students from various SCHOOLS and COLLEGES. Please fill in accurate details
+          This competition is open to students from various SCHOOLS, INTERMEDIATE and DEGREE COLLEGES. Please fill in accurate details
           in the registration form below to ensure a smooth verification and confirmation process.
         </p>
 
