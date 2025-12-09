@@ -78,7 +78,7 @@ export const Footer = () => {
           H.A.S Team
         </span>
         <span className="text-[9px] text-[hsl(51_100%_88%)] leading-tight tracking-wide">
-          Led by Syed Hannan Pasha
+          Led by ✨Syed Hannan Pasha
         </span>
 
       </div>
