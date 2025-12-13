@@ -61,7 +61,7 @@ export const EventDetails = () => {
                 <Calendar className="w-6 h-6 text-[hsl(var(--gold))] flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-semibold text-[hsl(var(--gold))] mb-1">Event Date</h3>
-                  <p className="text-sm text-[hsl(var(--foreground))]/80">10th JANUARY 2026.</p>
+                  <p className="text-base sm:text-lg text-[hsl(var(--foreground))]/90 leading-relaxed mb-4">10th JANUARY 2026.</p>
                 </div>
               </div>
 
@@ -78,8 +78,8 @@ export const EventDetails = () => {
                 <Info className="w-6 h-6 text-[hsl(var(--gold))] flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-semibold text-[hsl(var(--gold))] mb-1">Registration Information</h3>
-                  <p className="text-sm text-[hsl(var(--foreground))]/80">
-                    Registration is open until <b>25 December 2025</b>.
+                  <p className="text-base sm:text-lg text-[hsl(var(--foreground))]/90 leading-relaxed mb-4">
+                    Registration is open until <b>30 December 2025</b>.
                     <br />
                     Limited seats available.
                   </p>
