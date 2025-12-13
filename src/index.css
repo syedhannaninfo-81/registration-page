@@ -154,3 +154,166 @@
 .animate-pulse-slow {
   animation: pulse-slow 3s ease-in-out infinite;
 }
+/* Glow Frame (same as your main hero box) */
+.glow-frame {
+  border: 2px solid rgba(255, 217, 0, 0.9);
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+  position: relative;
+}
+
+/* Prize Cards */
+.prize-card {
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 18px;
+  padding: 30px 20px;
+  text-align: center;
+  border: 1px solid rgba(255, 215, 0, 0.3);
+  backdrop-filter: blur(8px);
+  transition: 0.35s ease;
+  position: relative;
+}
+
+/* Height hierarchy */
+.main-prize {
+  transform: translateY(-20px);
+}
+
+/* Hover interaction */
+.prize-card:hover {
+  transform: translateY(-30px) scale(1.05);
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.6);
+}
+
+/* Medal icons */
+.medal {
+  font-size: 4.5rem;
+  margin-bottom: 10px;
+  transition: 0.3s ease;
+}
+
+/* Medal glow */
+.gold { filter: drop-shadow(0 0 15px gold); }
+.silver { filter: drop-shadow(0 0 12px silver); }
+.bronze { filter: drop-shadow(0 0 12px #cd7f32); }
+
+/* Text */
+.prize-card h3 {
+  color: #ffd700;
+  font-size: 1.3rem;
+  margin-bottom: 6px;
+}
+
+.prize-card p {
+  color: #eaeaea;
+  font-size: 1.1rem;
+}
+
+/* Spotlight behind 1st prize */
+.spotlight {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 180px;
+  height: 180px;
+  background: radial-gradient(circle, rgba(255,215,0,0.25), transparent 70%);
+  z-index: 0;
+}
+
+/* Ensure content stays above spotlight */
+.main-prize * {
+  position: relative;
+  z-index: 1;
+}
+.prize-card {
+  background: rgba(255, 255, 255, 0.035);
+  border-radius: 14px;
+  padding: 16px 14px;              /* ⬅ reduced */
+  text-align: center;
+  border: 1px solid rgba(255, 215, 0, 0.22);
+  backdrop-filter: blur(6px);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 6px;                        /* ⬅ tighter spacing */
+}
+
+/* MEDAL – MOBILE */
+.medal {
+  font-size: 2.6rem;               /* ⬅ smaller */
+  margin-bottom: 4px;
+  line-height: 1;
+}
+
+/* TEXT – MOBILE */
+.prize-card h3 {
+  color: #ffd700;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.prize-card p {
+  color: #eaeaea;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+/* SOFT GLOW (SAFE FOR MOBILE) */
+.gold   { filter: drop-shadow(0 0 5px gold); }
+.silver { filter: drop-shadow(0 0 4px silver); }
+.bronze { filter: drop-shadow(0 0 4px #cd7f32); }
+
+/* ================= DESKTOP ONLY ================= */
+@media (min-width: 768px) {
+
+  .main-prize {
+    transform: translateY(-16px);
+  }
+
+  .medal {
+    font-size: 4.2rem;
+  }
+
+  .prize-card {
+    padding: 28px 20px;
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+  }
+
+  .prize-card:hover {
+    transform: translateY(-22px) scale(1.04);
+    box-shadow: 0 0 22px rgba(255, 215, 0, 0.55);
+  }
+}/* ================= GOLD SHIMMER (1st Prize Only) ================= */
+
+.gold-card {
+  position: relative;
+  overflow: hidden;
+}
+
+/* shimmer layer */
+.gold-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -120%;
+  width: 60%;
+  height: 100%;
+
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 215, 0, 0.25),
+    transparent
+  );
+
+  animation: goldShimmer 3.5s infinite ease-in-out;
+}
+
+@keyframes goldShimmer {
+  0%   { left: -120%; }
+  50%  { left: 120%; }
+  100% { left: 120%; }
+}
