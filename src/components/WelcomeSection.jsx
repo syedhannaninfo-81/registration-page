@@ -25,10 +25,77 @@ export const WelcomeSection = () => {
 
         <p className="text-sm sm:text-base text-[hsl(var(--foreground))]/70 leading-relaxed">
           This competition is open to students from various SCHOOLS, INTERMEDIATE and DEGREE COLLEGES.
-
- Please fill in accurate details
-          in the registration form below to ensure a smooth verification and confirmation process.
         </p>
+        <p className="text-sm sm:text-base text-[hsl(var(--foreground))]/70 leading-relaxed">
+          Please fill the accurate details in the registration form below to ensure a smooth verification and confirmation process.
+        </p>
+        section className="w-full py-12 px-4 flex justify-center">
+  <div className="glow-frame max-w-[900px] w-full rounded-2xl p-6 md:p-10">
+    <h2 className="text-xl sm:text-2xl font-semibold text-[hsl(var(--gold))] font-['Crimson_Text']">
+      More Details
+    </h2>
+    <p className="text-base sm:text-lg text-[hsl(var(--foreground))]/90 leading-relaxed mb-4">
+        The participants will be Divided into Three Groups
+        </p>
+      <p className="text-base sm:text-lg text-[hsl(var(--foreground))]/90 leading-relaxed mb-4">
+      📚School Group
+      </p> 
+      <p className="text-base sm:text-lg text-[hsl(var(--foreground))]/90 leading-relaxed mb-4">
+      🎓Degree Group
+      </p>  
+      <p className="text-base sm:text-lg text-[hsl(var(--foreground))]/90 leading-relaxed mb-4">
+      🌏Common Group (For non-students & adults)
+      </p> 
+      <p className="text-base sm:text-lg text-[hsl(var(--foreground))]/90 leading-relaxed mb-4">
+        The Quiz Will be Conducted In 3 Rounds.
+       </p> 
+      <p className="text-base sm:text-lg text-[hsl(var(--foreground))]/90 leading-relaxed mb-4">
+        💠LIVE Winner Selection.
+       </p>
+
+       </div>
+</section>
+
+       
+<section className="w-full py-12 px-4 flex justify-center">
+  <div className="glow-frame max-w-[900px] w-full rounded-2xl p-6 md:p-10">
+    <h2 className="text-xl sm:text-2xl font-semibold text-[hsl(var(--gold))] font-['Crimson_Text']">
+      🏆 Competition Rewards.
+    </h2>
+    <p className="text-base sm:text-lg text-[hsl(var(--foreground))]/90 leading-relaxed mb-4">
+       💠9 Winners & 7 Runner Ups will be Selected
+       </p>
+       <p className="text-base sm:text-lg text-[hsl(var(--foreground))]/90 leading-relaxed mb-4">
+       
+       </p>
+
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-end">
+
+      {/* 1st Prize – comes first on mobile */}
+      <div className="prize-card gold-card main-prize order-1 md:order-2">
+        <div className="medal gold">🥇</div>
+        <h3>1st Prize</h3>
+        <p>₹40,000</p>
+      </div>
+
+      {/* 2nd Prize */}
+      <div className="prize-card silver-card order-2 md:order-1">
+        <div className="medal silver">🥈</div>
+        <h3>2nd Prize</h3>
+        <p>₹25,000</p>
+      </div>
+
+      {/* 3rd Prize */}
+      <div className="prize-card bronze-card order-3">
+        <div className="medal bronze">🥉</div>
+        <h3>3rd Prize</h3>
+        <p>₹15,000</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
         <div className="mt-6 flex items-center justify-center space-x-2">
           <div className="h-px w-16 bg-gradient-to-r from-transparent to-[hsl(var(--gold))]/50"></div>
