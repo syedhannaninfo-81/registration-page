@@ -3,9 +3,10 @@ import { Sparkles } from 'lucide-react';
 
 
 export const Footer = () => {
+  
   return (
-
-<footer className="relative w-full py-20 px-4 sm:px-6 lg:px-8 text-center">
+    
+    <footer className="relative w-full py-20 px-4 sm:px-6 lg:px-8 text-center">
       <section className="w-full py-8 px-4 sm:px-6 lg:px-8 animate-fade-in-up"
       style={{ animationDelay: '0.5s' }} >
       <div className="max-w-3xl mx-auto text-center">
@@ -122,7 +123,6 @@ export const Footer = () => {
        </div>
 </section>
 
-    <footer className="relative w-full py-20 px-4 sm:px-6 lg:px-8 text-center">
 
       {/* School Name */}
       <h2 className="text-3xl sm:text-4xl font-bold text-gradient-gold mb-2 font-['Playfair_Display']">
