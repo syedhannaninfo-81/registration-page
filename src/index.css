@@ -317,3 +317,57 @@
   50%  { left: 120%; }
   100% { left: 120%; }
 }
+.study-material-section {
+  margin-top: 26px;
+  text-align: center;
+}
+
+.study-title {
+  color: #ffd700;
+  font-size: 1.1rem;
+  margin-bottom: 14px;
+  letter-spacing: 0.5px;
+}
+
+.study-buttons {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.study-btn {
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 0.95rem;
+  color: #0b1d2a;
+  background: linear-gradient(135deg, #ffd700, #ffeb99);
+  border: none;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.35s ease;
+  box-shadow: 0 0 12px rgba(255, 215, 0, 0.35);
+}
+
+.study-btn:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 0 22px rgba(255, 215, 0, 0.75);
+}
+
+/* Second button slightly cooler tone */
+.study-btn.secondary {
+  background: linear-gradient(135deg, #9ad7ff, #cfeeff);
+  box-shadow: 0 0 12px rgba(154, 215, 255, 0.35);
+}
+
+.study-btn.secondary:hover {
+  box-shadow: 0 0 22px rgba(154, 215, 255, 0.75);
+}
+
+/* Mobile tuning */
+@media (max-width: 480px) {
+  .study-btn {
+    width: 100%;
+    max-width: 260px;
+  }
+}

@@ -1,7 +1,127 @@
 import React from "react";
+import { Sparkles } from 'lucide-react';
+
 
 export const Footer = () => {
   return (
+
+<footer className="relative w-full py-20 px-4 sm:px-6 lg:px-8 text-center">
+      <section className="w-full py-8 px-4 sm:px-6 lg:px-8 animate-fade-in-up"
+      style={{ animationDelay: '0.5s' }} >
+      <div className="max-w-3xl mx-auto text-center">
+        <div className="relative inline-block mb-6">
+          <Sparkles className="absolute -top-2 -left-2 w-6 h-6 text-[hsl(var(--gold))] animate-pulse-gold" />
+          <Sparkles
+            className="absolute -bottom-2 -right-2 w-6 h-6 text-[hsl(var(--gold))] animate-pulse-gold"
+            style={{ animationDelay: '0.5s' }}/>
+          <h2 className="text-xl sm:text-2xl font-semibold text-[hsl(var(--gold))] font-['Crimson_Text']">
+            ✨Study or Reference Materials✨
+          </h2>
+        </div>
+
+        <p className="text-base sm:text-lg text-[hsl(var(--foreground))]/90 leading-relaxed mb-4">
+          Refer This Study Materials or Reference Material According to your Group .
+        </p>
+        </div>
+</section>
+
+
+<section className="w-full py-12 px-4 flex justify-center">
+  <div className="glow-frame max-w-[900px] w-full rounded-2xl p-6 md:p-10">
+      <h3 className="text-base sm:text-lg text-[hsl(var(--foreground))]/90 leading-relaxed mb-4">
+      📚School Group
+      </h3>
+      <div className="study-material-section">
+  <p className="study-title"> Study Material</p>
+
+  <div className="study-buttons">
+    <a
+      href="https://drive.google.com/file/d/1jlcs9R_o-eA4Hll5Y3t_QG6ySQ7gYdAe/view"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="study-btn"
+    >
+      The Jurneys and Travels
+    </a>
+
+    <a
+      href="https://drive.google.com/file/d/1gOXm5g5b5YtdffwtYUUUfgHrqZnj7Ufw/view"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="study-btn secondary"
+    >
+      The Family of Prophet Mohammed(PBUH)
+    </a>
+  </div>
+</div>
+ </div>
+</section>
+
+
+ <section className="w-full py-12 px-4 flex justify-center">
+  <div className="glow-frame max-w-[900px] w-full rounded-2xl p-6 md:p-10">     
+      <h3 className="text-base sm:text-lg text-[hsl(var(--foreground))]/90 leading-relaxed mb-4">
+      🎓Intermedite and Degree Group
+      </h3> 
+      <div className="study-material-section">
+  <p className="study-title"> Study Material</p>
+
+  <div className="study-buttons">
+    <a
+      href="https://drive.google.com/file/d/13SSLPwMlHEsv2j31Q3kkAuQ1Tj9AzOP1/view"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="study-btn"
+    >
+      The Batteles Fought By Prophet(PBUH)
+    </a>
+
+    <a
+      href="https://drive.google.com/file/d/1quauAiKwTKbFpE-cbbTi_so64GssqN5x/view"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="study-btn secondary"
+    >
+      Finality of Prophethood 
+    </a>
+  </div>
+</div>
+</div>
+</section>
+
+      
+ <section className="w-full py-12 px-4 flex justify-center">
+  <div className="glow-frame max-w-[900px] w-full rounded-2xl p-6 md:p-10">     
+      <h3 className="text-base sm:text-lg text-[hsl(var(--foreground))]/90 leading-relaxed mb-4">
+      🌏Common Group (For non-students & adults)
+      </h3> 
+      <div className="study-material-section">
+  <p className="study-title"> Study Material</p>
+
+  <div className="study-buttons">
+    <a
+      href="https://drive.google.com/file/d/1fX4O7Evi5mMeT6BNLZXaDxVyE2STnj69/view"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="study-btn"
+    >
+      Married life of Prophet Mohammed(PBUH)
+    </a>
+
+    <a
+      href="https://drive.google.com/file/d/1R2WtEIXisvv7wUu4KYNBgRtlfr5-auA3/view"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="study-btn secondary"
+    >
+      Role of Women During Era of Prophethood
+    </a>
+  </div>
+</div>
+      
+       </div>
+</section>
+
     <footer className="relative w-full py-20 px-4 sm:px-6 lg:px-8 text-center">
 
       {/* School Name */}
