@@ -79,7 +79,7 @@ export const EventDetails = () => {
                 <div>
                   <h3 className="font-semibold text-[hsl(var(--gold))] mb-1">Registration Information</h3>
                   <p className="text-base sm:text-lg text-[hsl(var(--foreground))]/90 leading-relaxed mb-4">
-                    Registration is open until <b>05 January 2025</b>.
+                    Registration is open until <b>05 January 2026 </b>.
                     <br />
                     Limited seats available.
                   </p>
