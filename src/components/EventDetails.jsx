@@ -1,6 +1,6 @@
 // src/components/EventDetails.jsx
 import React from "react";
-import { Trophy, Calendar, Info, Sparkles } from "lucide-react";
+import { Trophy, Calendar, Info, Sparkles,MapPin } from "lucide-react";
 
 export const EventDetails = () => {
   return (
@@ -61,7 +61,26 @@ export const EventDetails = () => {
                 <Calendar className="w-6 h-6 text-[hsl(var(--gold))] flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-semibold text-[hsl(var(--gold))] mb-1">Event Date</h3>
-                  <p className="text-base sm:text-lg text-[hsl(var(--foreground))]/90 leading-relaxed mb-4">10th JANUARY 2026.</p>
+                  <p className="text-base sm:text-lg text-[hsl(var(--foreground))]/90 leading-relaxed mb-4">15th JANUARY 2026.</p>
+                  
+                </div>
+              </div>
+
+              {/* Venue (place) */}
+              <div
+                className="flex items-start space-x-4 p-4 rounded-lg 
+                bg-[hsl(var(--blue-soft))]/30 
+                border border-[hsl(var(--gold))]/20 max-w-md w-full
+                transition-all duration-300 cursor-pointer
+                hover:border-[hsl(var(--gold))] hover:shadow-[0_0_20px_hsl(var(--gold))]
+                hover:bg-[hsl(var(--blue-soft))]/40 active:shadow-[0_0_25px_hsl(var(--gold))]
+                animate-breathe-gold animate-soft-glow"
+              >
+                <MapPin className="w-6 h-6 text-[hsl(var(--gold))] flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="font-semibold text-[hsl(var(--gold))] mb-1">Venue</h3>
+                  <p className="text-base sm:text-lg text-[hsl(var(--foreground))]/90 leading-relaxed mb-4"> Minar Garden Function Hall.</p>
+                  <p className="text-base sm:text-lg text-[hsl(var(--foreground))]/90 leading-relaxed mb-4"> Salar Jung Rd, Old City, Darulshifa, Hyderabad, Telangana 500002</p> 
                 </div>
               </div>
 
@@ -79,7 +98,7 @@ export const EventDetails = () => {
                 <div>
                   <h3 className="font-semibold text-[hsl(var(--gold))] mb-1">Registration Information</h3>
                   <p className="text-base sm:text-lg text-[hsl(var(--foreground))]/90 leading-relaxed mb-4">
-                    Registration is open until <b>05 January 2026 </b>.
+                    Registration is open until <b>10 January 2026 </b>.
                     <br />
                     Limited seats available.
                   </p>
