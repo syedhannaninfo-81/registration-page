@@ -26,7 +26,7 @@ export const WelcomeSection = () => {
           </p>
 
           <p className="text-sm sm:text-base text-[hsl(var(--foreground))]/70 leading-relaxed">
-            This competition is open to students from various SCHOOLS, INTERMEDIATE and DEGREE COLLEGES.
+            This competition is open to students from various SCHOOLS , INTERMEDIATE & DEGREE COLLEGES and for all Common People.
           </p>
 
           <p className="text-sm sm:text-base text-[hsl(var(--foreground))]/70 leading-relaxed">
