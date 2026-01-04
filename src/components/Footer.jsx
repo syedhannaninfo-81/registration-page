@@ -188,18 +188,19 @@ export const Footer = () => {
 
         {/* Logo */}
         <img
-          src="/horizon-logo.png"
-          alt="HAS Logo"
+          src="/fens.png"
+          alt="Fenskia Logo"
           className="w-6 mb-1 opacity-80"
         />
 
         {/* Text Lines */}
-        <span className="text-[10px] text-[hsl(51_100%_85%)] leading-tight tracking-wide">
-          H.A.S Team
+        <span className="text-[9px] text-[hsl(51_100%_85%)] leading-tight tracking-wide">
+          Fenskia Team
         </span>
         <span className="text-[9px] text-[hsl(51_100%_88%)] leading-tight tracking-wide">
           Led by Syed Hannan Pasha
         </span>
+        
 
       </div>
     </footer>
