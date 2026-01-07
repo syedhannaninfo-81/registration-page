@@ -46,7 +46,7 @@ export const Footer = () => {
     </a>
 
     <a
-      href="https://drive.google.com/file/d/1gOXm5g5b5YtdffwtYUUUfgHrqZnj7Ufw/view"
+      href="https://docs.google.com/document/d/1YH06znqhDcc2SzKfRHqjHgmOszYUSBr06pLSqPniAfY/edit?usp=sharing"
       target="_blank"
       rel="noopener noreferrer"
       className="study-btn secondary"
