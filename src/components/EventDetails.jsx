@@ -60,6 +60,9 @@ export const EventDetails = () => {
                   <p className="text-sm sm:text-base xl:text-lg leading-relaxed xl:leading-loose text-[hsl(var(--foreground))]/90">
                     15th JANUARY 2026.
                   </p>
+                  <p className="text-sm sm:text-base xl:text-lg leading-relaxed xl:leading-loose text-[hsl(var(--foreground))]/90">
+                    From 6pm.
+                  </p>
                 </div>
               </div>
 
