@@ -195,10 +195,10 @@ export const Footer = () => {
 
         {/* Text Lines */}
         <span className="text-[9px] text-[hsl(51_100%_85%)] leading-tight tracking-wide">
-          Fenskia Team
+          led by
         </span>
         <span className="text-[9px] text-[hsl(51_100%_88%)] leading-tight tracking-wide">
-          Led by Syed Hannan 
+         Syed Hannan 
         </span>
         <a href="tel:8790944009" className="text-[9px] text-[hsl(51_100%_88%)] leading-tight tracking-wide">
       87909 44009
